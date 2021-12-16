@@ -184,7 +184,7 @@ public class MainActivity extends AppCompatActivity {
             numTwo = Double.parseDouble(str);
 
             if (numOne == 0 | numTwo == 0) {
-                Toast.makeText(this, "Произошел взрыв вселейнной!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Произошел взрыв вселейнной!!!", Toast.LENGTH_SHORT).show();
                 clearTextButton();
             } else {
                 numSum = numOne / numTwo;
